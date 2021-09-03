@@ -108,9 +108,8 @@ function themNV(){
 
     if (nv != 0) {
         dsnv.themNhanVien(nv);
-        // lưu xuống local
+
         setLocalStorage();
-        // hiển thị lên table
         hienThiTable(dsnv.mangNV);
     }
 }
@@ -143,9 +142,8 @@ function capNhatNV() {
 
     if (nv != 0) {
         dsnv.capNhatNhanVien(nv);
-        // lưu xuống local
+        
         setLocalStorage();
-        // hiển thị lên table
         hienThiTable(dsnv.mangNV);
     }
 }

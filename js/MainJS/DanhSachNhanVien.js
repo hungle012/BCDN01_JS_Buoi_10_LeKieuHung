@@ -22,11 +22,7 @@ function DanhSachNhanVien() {
     this.xoaNhanVien = function(tk) {
         var viTri = this.timViTri(tk);
         if (viTri >= 0) {
-            // tìm được 
-            // splice(viTri,1) : viTri: vị trí bắt đầu của phần tử cần xoá, 1: số lượng phần tử muốn xoá tính từ vị trí
             this.mangNV.splice(viTri,1);
-        } else {
-            console.log("không tìm được")
         }
     }
 
